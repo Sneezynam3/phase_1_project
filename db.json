@@ -1,34 +1,39 @@
 {
-  "colors": [
-    {
-        "id": "1",
-        "color": "red",
-        "image": "red.jpeg",
-        "votes": 0
-    },
-    {
-        "id": "2",
-        "color": "white",
-        "image": "white.jpeg",
-        "votes": 0
-    },
-    {
-        "id": "3",
-        "color": "blue",
-        "image": "blue.jpeg",
-        "votes": 0
-    },
-    {
-        "id": "4",
-        "color": "primer",
-        "image": "tbd.jpeg",
-        "votes": 0
-    },
-    {
-        "id": "5",
-        "color": "wrap",
-        "image": "tbd.jpeg",
-        "votes": 0
-    }
+    "colors": [
+        {
+            "id": "1",
+            "image": "primer.jpeg",
+            "color": "primer",
+            "saying": "Easy way out.",
+            "votes": 0
+        },
+        {
+            "id": "2",
+            "image": "wrap.jpeg",
+            "color": "wrap",
+            "saying": "Siiick wrap bro!",
+            "votes": 0
+        },
+        {
+            "id": "3",
+            "image": "red.jpeg",
+            "color": "red",
+            "saying": "The color of blood!",
+            "votes": 0
+        },
+        {
+            "id": "4",
+            "image": "white.jpeg",
+            "color": "white",
+            "saying": "Hard to see in the snow!",
+            "votes": 0
+        },
+        {
+            "id": "5",
+            "image": "blue.jpeg",
+            "color": "blue",
+            "saying": "Ole blue!",
+            "votes": 0
+        }
   ]
 }
