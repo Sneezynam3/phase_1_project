@@ -1,37 +1,37 @@
 {
     "colors": [
         {
-            "id": "1",
+            "id": 1,
             "image": "primer.jpeg",
-            "color": "primer",
+            "color": "Primer",
             "saying": "Easy way out.",
             "votes": 0
         },
         {
-            "id": "2",
+            "id": 2,
             "image": "wrap.jpeg",
-            "color": "wrap",
+            "color": "Wrap",
             "saying": "Siiick wrap bro!",
             "votes": 0
         },
         {
-            "id": "3",
+            "id": 3,
             "image": "red.jpeg",
-            "color": "red",
+            "color": "Red",
             "saying": "The color of blood!",
             "votes": 0
         },
         {
-            "id": "4",
+            "id": 4,
             "image": "white.jpeg",
-            "color": "white",
+            "color": "White",
             "saying": "Hard to see in the snow!",
             "votes": 0
         },
         {
-            "id": "5",
+            "id": 5,
             "image": "blue.jpeg",
-            "color": "blue",
+            "color": "Blue",
             "saying": "Ole blue!",
             "votes": 0
         }
