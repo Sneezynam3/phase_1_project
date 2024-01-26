@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imageContainer = document.getElementById('image-container');
         imageContainer.appendChild(imageElement);
 
-          
+        //get access to the img tag in css  
         const images = document.querySelectorAll('img');
 
         images.forEach(image => {
