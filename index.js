@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(data);
       data.forEach(color => {
         // Create an <img> element
-        const imageElement = document.createElement('img');
-
+        const imageElement = document.createElement('img');        
+      
         // Set the src attribute to the image URL from the object
         imageElement.src = './Assets/' + color.image;
 
@@ -29,5 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
 
-    });
-});
+  });
+})
+

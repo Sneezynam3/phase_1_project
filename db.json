@@ -2,37 +2,44 @@
     "colors": [
         {
             "id": 1,
-            "image": "primer.jpeg",
-            "color": "Primer",
-            "saying": "Easy way out.",
+            "image": "4-1copy.jpeg",
+            "color": "Primer Black",
+            "saying": "This wont take long.",
             "votes": 0
         },
         {
             "id": 2,
-            "image": "wrap.jpeg",
-            "color": "Wrap",
-            "saying": "Siiick wrap bro!",
+            "image": "4-12copy.jpeg",
+            "color": "Primer Gren",
+            "saying": "Diving in",
             "votes": 0
         },
         {
             "id": 3,
-            "image": "red.jpeg",
-            "color": "Red",
-            "saying": "The color of blood!",
+            "image": "4-7copy.jpeg",
+            "color": "Bare Metal Hole",
+            "saying": "Deeper Dive",
             "votes": 0
         },
         {
             "id": 4,
-            "image": "white.jpeg",
-            "color": "White",
-            "saying": "Hard to see in the snow!",
+            "image": "4-5copy.jpeg",
+            "color": "Bare Metal Patch",
+            "saying": "Holy cow this is going to take a lot",
             "votes": 0
         },
         {
             "id": 5,
-            "image": "blue.jpeg",
-            "color": "Blue",
-            "saying": "Ole blue!",
+            "image": "4-9copy.jpeg",
+            "color": "First Fill",
+            "saying": "Three years later",
+            "votes": 0
+        },
+        {
+            "id": 5,
+            "image": "4-20copy.jpeg",
+            "color": "First Primer",
+            "saying": "Five years in. Still learning",
             "votes": 0
         }
   ]
