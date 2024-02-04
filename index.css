@@ -3,9 +3,14 @@ img {
   height: auto;
   overflow:auto;
   background-color: powderblue;
+  
   }
 
-  #image-container {
+  #imageContainer {
     border: 1px;
     color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
