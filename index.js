@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         imgElement.src = "../phase-1/assets/4-20copy.jpeg";
         timeOutIds = []; // Clear the array for future use
       })
-      img
     })
     .catch(error => {
       console.error('Error fetching data:', error);
