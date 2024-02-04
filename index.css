@@ -1,7 +1,6 @@
 img {
-    height: 625px;
-    width: 875px;
-    background-color: powderblue;
-    filter: blur(10px);
-    transition: filter 0.3s;
+  width: 75%;
+  height: auto;
+  overflow:auto;
+  background-color: powderblue;
   }
