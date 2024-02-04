@@ -23,10 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
       imgElement.addEventListener("mouseover", () => {
         data.slice(0, 5).forEach((color, index) => { 
           setTimeout(() => {
-            imgElement.src = color.image;
+            imgElement.src = `assets/${color.image}`;
           }, 1000 * (index + 1)); 
         });
       });
+
     })
     .catch(error => {
       console.error('Error fetching data:', error);
