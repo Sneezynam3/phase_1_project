@@ -2,19 +2,24 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+  color: darkblue
+}
+
 img {
   width: 75%;
   height: auto;
   overflow:auto;
   background-color: powderblue;
   
-  }
+}
 
-  #imageContainer {
-    border: 1px;
-    color: red;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
+#imageContainer {
+  border: 1px;
+  color: red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
