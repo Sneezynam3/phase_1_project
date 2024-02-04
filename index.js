@@ -21,14 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => { 
       console.log(data)
       data.forEach(image => {
-        // Assuming each 'image' contains a URL to an image
-        const imgElement = document.createElement('img');
-        imgElement.src = image.url;
-        imgElement.alt = image.saying;
+        document.getElementById("image-container").addEventListener("mouseover", () => {
 
-        // Assuming there's a container with id 'imageContainer' where you want to append the images
-        document.getElementById('imageContainer').appendChild(imgElement);
-      });
+        })
+      })
     })
     .catch(error => {
       console.error('Error fetching data:', error);
