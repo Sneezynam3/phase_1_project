@@ -4,3 +4,8 @@ img {
   overflow:auto;
   background-color: powderblue;
   }
+
+  #image-container {
+    border: 1px;
+    color: red;
+  }
