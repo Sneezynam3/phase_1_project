@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
           }, 1000 * (index + 1)); 
         });
       });
-
+      imgElement.addEventListener("mouseout", () => {
+        imgElement.src = "../phase-1/assets/4-20copy.jpeg";
+      })
     })
     .catch(error => {
       console.error('Error fetching data:', error);
