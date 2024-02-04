@@ -15,21 +15,20 @@
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Add mouseover event listener to #image-container
-  document.getElementById("imageContainer").addEventListener("mouseover", () => {
-    // Fetch colors data from the server
-    fetch('http://localhost:3000/colors')
-      .then(response => response.json())
-      .then(data => {
-          console.log(data);
-          data.forEach(image => {
-              
-          });
-      })
-      .catch(error => {
-          console.error('Error fetching data:', error);
+  fetch('http://localhost:3000/colors')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data)
+      const imgElement = document.getElementById("img");
+      imgElement.addEventListener("mouseover", () => {
+        data.slice(0, 5).forEach((color, index) => { 
+          setTimeout(() => {
+            imgElement.src = color.image;
+          }, 1000 * (index + 1)); 
+        });
       });
-  });
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
 });
-
-
