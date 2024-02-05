@@ -4,20 +4,20 @@
             "id": 1,
             "image": "4-1copy.jpeg",
             "color": "Primer Black",
-            "saying": "This wont take long.",
+            "saying": "The start of a long journey.",
             "votes": 0
         },
         {
             "id": 2,
             "image": "4-12copy.jpeg",
             "color": "Primer Gren",
-            "saying": "Diving in",
+            "saying": "A donor deck lid. Stealing patch.",
             "votes": 0
         },
         {
             "id": 3,
             "image": "4-7copy.jpeg",
-            "color": "Bare Metal Hole",
+            "color": "Cutting out rust. Prep for patch",
             "saying": "Deeper Dive",
             "votes": 0
         },
@@ -25,21 +25,21 @@
             "id": 4,
             "image": "4-5copy.jpeg",
             "color": "Bare Metal Patch",
-            "saying": "Holy cow this is going to take a lot",
+            "saying": "Welded in patch. No grinding.",
             "votes": 0
         },
         {
             "id": 5,
             "image": "4-9copy.jpeg",
             "color": "First Fill",
-            "saying": "Three years later",
+            "saying": "Welded in patch. Grinded smooth.",
             "votes": 0
         },
         {
             "id": 5,
             "image": "4-20copy.jpeg",
             "color": "First Primer",
-            "saying": "Five years in. Still learning",
+            "saying": "First coat of primer. Red guide coat for sanding.",
             "votes": 0
         }
   ]

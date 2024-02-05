@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       console.log(data)
       const imgElement = document.getElementById("img");
-      
       imgElement.addEventListener("mouseover", () => {
         data.slice(0, 5).forEach((color, index) => { 
           let timeOutId = setTimeout(() => {
@@ -37,7 +36,18 @@ document.addEventListener('DOMContentLoaded', () => {
         imgElement.src = "../phase-1/assets/4-20copy.jpeg";
         timeOutIds = []; // Clear the array for future use
       })
-      
+
+      img.addEventListener("click", () => {
+        const element = document.createElement("ol");
+        data.forEach(color => {
+          // console.log(color.saying)
+          const listItem = document.createElement("li");
+          listItem.textContent = color.saying;
+          element.appendChild(listItem);
+        });
+        const h3Element = document.querySelector('h3');
+        h3Element.appendChild(element);
+      })
     })
     .catch(error => {
       console.error('Error fetching data:', error);
