@@ -1,12 +1,22 @@
+
+body {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
+  color: white;
+  opacity: 10%;
 }
 
 h3 {
-  text-align: center;
-  color: darkblue
+  text-align: left;
+  color: whitesmoke
 }
 
+ol {
+  padding-left: 100px;
+}
 img {
   width: 75%;
   height: auto;
