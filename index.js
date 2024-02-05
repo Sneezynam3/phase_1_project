@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('http://localhost:3000/colors')
     .then(response => response.json())
     .then(data => {
-      console.log(data)
       const imgElement = document.getElementById("img");
       imgElement.addEventListener("mouseover", () => {
         data.slice(0, 5).forEach((color, index) => { 
